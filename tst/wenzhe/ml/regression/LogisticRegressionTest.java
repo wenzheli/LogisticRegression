@@ -1,6 +1,5 @@
 package wenzhe.ml.regression;
 
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -37,10 +36,6 @@ public class LogisticRegressionTest {
         prob = lr.eval(test[1]);
         Assert.assertFalse(prob > 0.5);
         prob = lr.eval(test[2]);
-        Assert.assertFalse(prob > 0.5);
-       
-           
-        
+        Assert.assertFalse(prob > 0.5);   
     }
-
 }
