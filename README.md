@@ -21,6 +21,8 @@ Example code for using logistic regression for stochastic optimization.
 
 <b> Train the classifier <b> 
 ``` java
+   // create logistic regression object, and set the dimension of the training data, 
+   // excluding the reponse variable. 
    LogisticRegression lr = new LogisticRegression(2);
    // iterate through each sample, and update the weights. You can 
    // go through multiple paths. 
