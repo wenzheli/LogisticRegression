@@ -41,6 +41,7 @@ Example code for using logistic regression for stochastic optimization.
       // get the probability. For (0,1) response variable, we assume this probability is for case "1"
       double prob = lr.eval(test[i]);  
       ............
+   }
 ```
 </code>
 
