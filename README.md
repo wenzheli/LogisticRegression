@@ -1,4 +1,4 @@
-LogisticRegression
+Java Implementation for LogisticRegression 
 ==================
 
 Logistic Regression for Java. 
