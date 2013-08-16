@@ -34,6 +34,7 @@ public class LogisticRegression extends Regression {
 	public double eval(Object x){
 		double[] featureVector = (double[]) x;
 		double exp = Math.exp(w0 + innerProduct(featureVector));
+		// need to prevent it exceed the max value. 
 		exp = Double.isInfinite(exp) ? (Double.MAX_VALUE -1) : exp;
 		return exp/(exp+1);
 	}
